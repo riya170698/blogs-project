@@ -1,1 +1,1 @@
-var ourReq = XMLHttpRequest();
+
