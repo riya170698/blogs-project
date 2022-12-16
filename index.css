@@ -1,0 +1,19 @@
+#outer {
+  width: 500px;
+  height: 400px;
+  border-radius: 5px;
+  background-color: grey;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#inner {
+  width: 70%;
+  height: 80%;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
