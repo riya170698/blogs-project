@@ -2,3 +2,39 @@
   background-color: green;
   color: white;
 }
+/* let promise = fetch(
+  "https://learnwebcode.github.io/json-example/animals-1.json"
+);
+console.log(promise, "promise");
+
+promise.then((data) => console.log(data));
+
+let promise1 = new Promise(function (resolve, reject) {
+  var s1 = "hi";
+  var s2 = "hello";
+  if (s1 == s2) resolve("matched");
+  else {
+    const errorMsg= new Error("not matched")
+    reject(errorMsg);
+  }
+})
+  .then((successMsg) => console.log(successMsg))
+  .catch((failureMsg) => console.log(failureMsg)); */
+
+/* // let promise3 = new Promise(function (resolve, reject) {
+//   setTimeout(() => resolve(1), 1000); // (A)
+// })
+//   .then(function (result) {
+//     // (B)
+//     alert(result); // 1
+//     return result * 2;
+//   })
+//   .then(function (result) {
+//     // (C)
+//     alert(result); // 2
+//     return result * 2;
+//   })
+//   .then(function (result) {
+//     alert(result); // 4
+//     return result * 2;
+//   }); */
