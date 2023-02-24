@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title><%= title %></title>
+  </head>
+  <body>
+    <% for(let student of studentList){%>
+    <li>
+      <p><%=student.name%></p>
+      <p><%=student.email%></p>
+      <a href="/delete-student/<%=student.email%>">x</a>
+    </li>
+    <%}%>
+
+    <form action="/add-student" method="post">
+      <input type="text" name="student" placeholder="enter name" />
+      <input type="email" name="email" placeholder="enter email" />
+      <input type="submit" />
+    </form>
+  </body>
+</html>

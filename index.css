@@ -1,40 +1,30 @@
-#btn {
-  background-color: green;
-  color: white;
+/* .outer-div {
+  width: 100px;
+  height: 50px;
+  background-color: beige;
+  border: 1px solid black;
+  border-radius: 8px;
 }
-/* let promise = fetch(
-  "https://learnwebcode.github.io/json-example/animals-1.json"
-);
-console.log(promise, "promise");
 
-promise.then((data) => console.log(data));
-
-let promise1 = new Promise(function (resolve, reject) {
-  var s1 = "hi";
-  var s2 = "hello";
-  if (s1 == s2) resolve("matched");
-  else {
-    const errorMsg= new Error("not matched")
-    reject(errorMsg);
+@keyframes changeWidth {
+  from {
+    width: 0%;
   }
-})
-  .then((successMsg) => console.log(successMsg))
-  .catch((failureMsg) => console.log(failureMsg)); */
+  to {
+    width: 80%;
+  }
+}
 
-/* // let promise3 = new Promise(function (resolve, reject) {
-//   setTimeout(() => resolve(1), 1000); // (A)
-// })
-//   .then(function (result) {
-//     // (B)
-//     alert(result); // 1
-//     return result * 2;
-//   })
-//   .then(function (result) {
-//     // (C)
-//     alert(result); // 2
-//     return result * 2;
-//   })
-//   .then(function (result) {
-//     alert(result); // 4
-//     return result * 2;
-//   }); */
+.inner-div {
+  width: 80%;
+  height: 100%;
+  background-color: aqua;
+  border-radius: 8px;
+  animation-name: changeWidth;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
